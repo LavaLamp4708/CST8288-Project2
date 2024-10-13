@@ -9,6 +9,13 @@ package components;
  * @author gouraya
  */
 public class SpringDessert implements Dessert {
-   
+   @Override
+   public String toString() {
+	   return String.format(
+			   "Vanilla Crème Brûlée%n"
+			   + "White Chocolate Brownie%n"
+			   + "Passion Fruit Fig Tart%n"
+			   );
+   }
     
 }

@@ -3,10 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package menu_factory;
-import components.Dessert;
-import components.Drink;
-import components.MainCourse;
-import components.Entree;;
+import components.*;
 /**
  *
  * @author gouraya
@@ -16,24 +13,24 @@ public class SpringRestaurantMenuFactory implements RestaurantMenuFactory {
     @Override
     public Drink createDrink() {
         // Add the required code here
-        return null;
+        return new SpringDrink();
     }
     
     @Override
     public MainCourse createMainCourse() {
         // Add the required code here
-         return null;
+         return new SpringMainCourse();
     }
 
     @Override    
     public Entree createEntree() {
         // Add the required code here
-         return null;
+         return new SpringEntree();
     }
 
     @Override    
     public Dessert createDessert() {
         // Add the required code here
-        return null;
+        return new SpringDessert();
     } 
 }

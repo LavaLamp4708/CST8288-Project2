@@ -9,6 +9,12 @@ package components;
  * @author gouraya
  */
 public class WinterEntree implements Entree {
-  
-    
+	@Override
+    public String toString() {
+		return String.format(
+				"Sesame Soy Tartare%n"
+				+ "Boston Clam Chowder%n"
+				+ "Thai Soup%n"
+				);
+	}
 }

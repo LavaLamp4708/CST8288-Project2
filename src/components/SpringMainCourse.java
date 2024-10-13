@@ -9,7 +9,13 @@ package components;
  * @author gouraya
  */
 public class SpringMainCourse implements MainCourse {
-    
-   
+    @Override
+    public String toString() {
+    	return String.format(
+    			"Sunny Rise Burger%n"
+    			+ "California Spring Salad%n"
+    			+ "Crispy Chicken Sandwich%n"
+    			);
+    }
     
 }

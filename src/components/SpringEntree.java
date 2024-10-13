@@ -9,6 +9,13 @@ package components;
  * @author gouraya
  */
 public class SpringEntree implements Entree {
-    
+    @Override
+    public String toString() {
+    	return String.format(
+    			"Lobster Veracruzana%n"
+    			+ "Organic Ocean Halibut%n"
+    			+ "Mushroom Soup%n"
+    			);
+    }
     
 }

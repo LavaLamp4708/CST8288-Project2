@@ -9,6 +9,12 @@ package components;
  * @author gouraya
  */
 public class SummerMainCourse implements MainCourse {
-
-   
+	@Override
+	public String toString() {
+		return String.format(
+				"Beef Tartare%n"
+				+ "Spiced Cauliflower%n"
+				+ "Chinook Salmon%n"
+				);
+	}
 }

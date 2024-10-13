@@ -9,6 +9,13 @@ package components;
  * @author gouraya
  */
 public class SpringDrink implements Drink  {
-
+	@Override
+	public String toString() {
+		return String.format(
+				"Cucumber Smash%n"
+				+ "Lime Juice%n"
+				+ "Candy Apple Cider%n"
+				);
+	}
 
 }

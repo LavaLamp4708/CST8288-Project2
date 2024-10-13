@@ -9,7 +9,13 @@ package components;
  * @author gouraya
  */
 public class WinterDrink implements Drink  {
-    
- 
+    @Override
+    public String toString() {
+    	return String.format(
+    			"Mojito%n"
+    			+ "Alcohol Free Wine%n"
+    			+ "Tequila%n"
+    			);
+    }
     
 }

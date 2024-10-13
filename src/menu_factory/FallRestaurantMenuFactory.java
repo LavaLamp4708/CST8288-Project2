@@ -3,38 +3,35 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package menu_factory;
-import components.Dessert;
-import components.Drink;
-import components.MainCourse;
-import components.Entree;
+import components.*;
 
 /**
  *
  * @author gouraya
  */
 public class FallRestaurantMenuFactory implements RestaurantMenuFactory {
-
+	
     @Override
     public Drink createDrink() {
         // Add the required code here
-        return null;
+        return new FallDrink();
     }
     
     @Override
     public MainCourse createMainCourse() {
         // Add the required code here
-         return null;
+         return new FallMainCourse();
     }
 
     @Override    
     public Entree createEntree() {
         // Add the required code here
-         return null;
+         return new FallEntree();
     }
 
     @Override    
     public Dessert createDessert() {
         // Add the required code here
-        return null;
+        return new FallDessert();
     }    
 }

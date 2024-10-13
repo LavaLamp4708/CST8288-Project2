@@ -9,6 +9,12 @@ package components;
  * @author gouraya
  */
 public class SummerDessert implements Dessert {
-    
-    
+    @Override
+    public String toString() {
+    	return String.format(
+    			"Lime Pie%n"
+    			+ "Ultimate Cookie%n"
+    			+ "Churro Ice Cream Sandwich%n"
+    			);
+    }
 }

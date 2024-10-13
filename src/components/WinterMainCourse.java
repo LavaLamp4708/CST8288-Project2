@@ -9,6 +9,12 @@ package components;
  * @author gouraya
  */
 public class WinterMainCourse implements MainCourse {
-    
- 
+    @Override
+    public String toString() {
+    	return String.format(
+    			"Sirloin%n"
+    			+ "Salmon Croquettes%n"
+    			+ "Steak and Fries%n"
+    			);
+    }
 }

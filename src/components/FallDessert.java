@@ -9,6 +9,12 @@ package components;
  * @author gouraya
  */
 public class FallDessert implements Dessert {
-
+	@Override
+	public String toString() {
+		return String.format(
+				  "Carrot cake%n"
+				+ "White Chocolate Cheesecake%n"
+				+ "Apple Pie%n");
+	}
     
 }

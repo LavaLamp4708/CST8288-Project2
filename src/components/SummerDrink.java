@@ -9,6 +9,12 @@ package components;
  * @author gouraya
  */
 public class SummerDrink implements Drink {
-
- 
+	@Override
+	public String toString() {
+		return String.format(
+				"Lemonade%n"
+				+ "Sangria%n"
+				+ "Rum Punch%n"
+				);
+	}
 }

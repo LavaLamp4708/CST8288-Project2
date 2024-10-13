@@ -26,21 +26,22 @@ public abstract class RestaurantMenu {
     
     public String getName() {
         // Add the required code here
-        return null;
+        return name;
     }
     
     public void setName(String name) {
         // Add the required code here
-        
+        this.name = name;
     }
     
     public String getPeriod() {
         // Add the required code here
-        return null;
+        return period;
     }
     
     public void setPeriod(String p) {
         // Add the required code here
+    	this.period = p;
     }
     
     public abstract void populateMenu();
@@ -50,7 +51,15 @@ public abstract class RestaurantMenu {
     @Override
     public String toString() {
         // Add the required code here
-        return "";
+    	
+        return String.format(
+        		"%nMenu Name: %s%n"
+        		+ "Available: %s%n%n"
+        		+ "\tEntrees:%n%s%n"
+        		+ "\tMain Courses: %n%s%n"
+        		+ "\tDesserts:%n%s%n"
+        		+ "\tDrinks:%n%s%n", 
+        		name, period, entree, mainCourse, dessert, drink);
     }
     
     

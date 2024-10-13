@@ -9,6 +9,13 @@ package components;
  * @author gouraya
  */
 public class SummerEntree implements Entree {
-    
+    @Override
+    public String toString() {
+    	return String.format(
+    			"Avocado scramble%n"
+    			+ "Little Gem Salad%n"
+    			+ "Miso Cauliflower Soup%n"
+    			);
+    }
     
 }

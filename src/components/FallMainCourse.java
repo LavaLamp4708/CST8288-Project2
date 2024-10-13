@@ -9,6 +9,13 @@ package components;
  * @author gouraya
  */
 public class FallMainCourse implements MainCourse{
-    
+    @Override
+    public String toString() {
+    	return String.format(
+    			"Salmon Avocado Toast%n"
+    			+ "Pesto Chicken Penne Asiago%n"
+    			+ "Portobello Mushroom Chicken%n"
+    			);
+    }
    
 }

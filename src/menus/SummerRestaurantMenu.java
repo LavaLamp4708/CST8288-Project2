@@ -22,6 +22,10 @@ public class SummerRestaurantMenu extends RestaurantMenu {
     public void populateMenu() {
         System.out.println("Adding items to " + getName());
         // Insert code to assign menu items created
+        drink = theFactory.createDrink();
+        mainCourse = theFactory.createMainCourse();
+        entree = theFactory.createEntree();
+        dessert = theFactory.createDessert();
     }
     
 }

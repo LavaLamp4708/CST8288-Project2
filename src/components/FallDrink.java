@@ -9,6 +9,12 @@ package components;
  * @author gouraya
  */
 public class FallDrink implements Drink {
-
+	@Override
+	public String toString() {
+		return String.format(
+				  "Margarita%n"
+				+ "Dark Rum%n"
+				+ "Orange Juice%n");
+	}
     
 }
